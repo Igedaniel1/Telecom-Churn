@@ -209,7 +209,7 @@ AND Has_StreamingTV = 'Yes'
 AND Has_StreamingMovies = 'Yes'
 AND (clv_segments = 'HIGH' OR clv_segments = 'MODERATE VALUE')
 
--- create stored procedures
+-- creating stored procedures
 -- users who will be offered internet service
 DELIMITER //
 CREATE PROCEDURE
